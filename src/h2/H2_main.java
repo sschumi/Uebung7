@@ -13,16 +13,17 @@ public class H2_main {
     }
     public static int[] change(int[] a, int[] b, int start, int end){
         if (end > start && Arrays.compare(a,b) != 0){
-            return Arrays.copyOfRange(a, 0, a.length);
+            int[] c = Arrays.copyOfRange(a, 0, a.length);
+            return c;
         }
         if (end > start && Arrays.compare(a, b) == 0){
             Arrays.sort(a);
-            int[] c = Arrays.copyOfRange(a, start, end);
-            return c;
+            int[] d = Arrays.copyOfRange(a, start, end);
+            return d;
         }
         if (end <= start){
-            int[] d = {};
-            return d;
+            int[] e = {};
+            return e;
         }
         return a;
     }

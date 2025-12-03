@@ -17,7 +17,7 @@ public class Zahl extends H1_main{
     }
 
     public void setSmall(){
-        if (num < 10){
+        if (num < 100){
             small = true;
         } else {
             small = false;
