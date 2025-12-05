@@ -1,7 +1,7 @@
 package h1;
 import java.lang.Math;
 
-public class Zahl extends H1_main{
+public class Zahl{
     public boolean even = true, small = true, positive = true;
     public int num = 4;
 
