@@ -6,6 +6,7 @@ public class Mensch {
     }
     public String name;
     public int gebJahr, alter;
+    private int jahr = 2025;
     public void setName(String a){
         name = a;
     }
@@ -13,7 +14,7 @@ public class Mensch {
         gebJahr = a;
     }
     public void setAlter(){
-        alter = 2025 - gebJahr;
+        alter = jahr - gebJahr;
     }
     public String getName(){
         return name;
